@@ -8044,10 +8044,11 @@ h1, h2, h3, h4, h5,
 .ftco-navbar-light {
   background: transparent !important;
   z-index: 3;
-  padding: 0; }
+  padding: 0;
+  box-shadow: 5px 10px 29px 0 rgb(68 88 66 / 11%); }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #fff !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -8065,7 +8066,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 11px;
+    font-size: 13px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 20px;
@@ -8137,7 +8138,8 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color:#000;
+    /* color: rgba(255, 255, 255, 0.5) !important; */
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -8734,14 +8736,14 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 100%; }
     .product .text h3 {
-      font-size: 14px;
+      font-size: 16px;
       margin-bottom: 5px;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
       font-family: "Poppins", Arial, sans-serif; }
       .product .text h3 a {
-        color: #000000; }
+        color: #097b76; }
     .product .text p.price {
       margin-bottom: 0;
       color: #00b2aa;
@@ -9380,7 +9382,8 @@ textarea.form-control {
         color: #fff; }
 
 .ftco-category .category-wrap-2 {
-  width: 100%; }
+  width: 100%;
+  min-height: 500px; }
   .ftco-category .category-wrap-2 .text {
     width: 100%; }
     .ftco-category .category-wrap-2 .text h2 {
@@ -10011,3 +10014,18 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+.newbr{
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+
+}
+.newbr:hover{
+  color:yellow;
+
+}
